@@ -2,6 +2,7 @@
   "name": "vite-vue-coverage",
   "version": "0.0.0",
   "scripts": {
+    "serve": "http-server ./coverage",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 5050",
@@ -20,6 +21,7 @@
     "c8": "^7.11.0",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",
+    "http-server": "^14.1.0",
     "jsdom": "^19.0.0",
     "prettier": "^2.5.1",
     "vite": "^2.8.4",
